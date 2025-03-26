@@ -6,7 +6,7 @@ import { BrowserRouter } from 'react-router-dom';
 
 
 const basename =
-  process.env.NODE_ENV === 'production' ? '/trending-movies' : '';
+process.env.NODE_ENV === 'production' ? '/goit-react-hw-05-movies' : '';
   console.log('NODE_ENV:', process.env.NODE_ENV);
   console.log('Basename setat:', basename);
 
